@@ -245,6 +245,14 @@ namespace WinformControl
             catch { }
         }
 
+        public void DownLoadFile(string sFilePath)
+        {
+            try
+            {
+            }
+            catch { }
+        }
+
         //메인 버튼창
         frmPopupButton frmPopupHandle = null;
         private delegate void CallPopupButtonEventDelegate();
@@ -634,6 +642,10 @@ namespace WinformControl
                                 if (cDataStruct.dwData.ToString() == "100")
                                 {
                                     Invoke(new MethodInvoker(delegate() { ApplicationExit(); }));
+                                }
+                                else if (cDataStruct.dwData.ToString() == "101")
+                                {
+                                    Invoke(new MethodInvoker(delegate() { DownLoadFile(cDataStruct.lpData); }));
                                 }
                             }
                         }

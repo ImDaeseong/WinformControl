@@ -56,7 +56,7 @@ namespace WinformControl.Common
                 int len = System.Text.Encoding.Default.GetBytes(szBuff).Length + 1;
 
                 clsWin32Api.COPYDATASTRUCT cds;
-                cds.dwData = (IntPtr)103;
+                cds.dwData = (IntPtr)101;
                 cds.cbData = len;
                 cds.lpData = szBuff;
 
