@@ -73,7 +73,7 @@ namespace WinformControl
         {
             //Log
             string sMsg = string.Format("browser_LoadError :{0} ", e.ErrorText);
-            Console.WriteLine(sMsg);
+            //Console.WriteLine(sMsg);
 
             try
             {

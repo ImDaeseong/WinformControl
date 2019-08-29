@@ -17,7 +17,7 @@ namespace WinformControl
             try
             {
                 float volumn = (float)Math.Round((float)(trackBarEx1.Value / 10), 1);
-                Console.WriteLine(volumn);
+                //Console.WriteLine(volumn);
             }
             catch { }
         }
@@ -25,7 +25,7 @@ namespace WinformControl
         private void trackBarEx1_ValueChanged(object sender, EventArgs e)
         {
             float volumn = (float)Math.Round((float)(trackBarEx1.Value / 10), 1);
-            Console.WriteLine(volumn);
+            //Console.WriteLine(volumn);
         }
     }
 }

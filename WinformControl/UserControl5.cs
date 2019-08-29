@@ -64,7 +64,7 @@ namespace WinformControl
             {
                 this.Invoke(new MethodInvoker(delegate()
                 {
-                    //MessageBox.Show("재시작 합니다.");                    
+                    //완료시 처리                   
                     //System.Diagnostics.Process.GetCurrentProcess().Kill();
                 }));
             }

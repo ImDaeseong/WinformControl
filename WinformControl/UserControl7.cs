@@ -13,6 +13,7 @@ namespace WinformControl
 {
     public partial class UserControl7 : UserControl
     {
+        //pnl1View 높이(pnl1View 밑에서부터 addBar를 붙여야하기 때문에 pnl1View 높이가 필요함)
         private int nScrollY = 100;
 
         public UserControl7()
@@ -40,6 +41,7 @@ namespace WinformControl
         {
 
         }
+
         private void roundButton1_Click(object sender, EventArgs e)
         {
 

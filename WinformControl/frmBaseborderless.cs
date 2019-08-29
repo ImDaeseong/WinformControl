@@ -92,8 +92,6 @@ namespace WinformControl
                 if (m.Msg == FormStyleAPI.WM_NCHITTEST && (int)m.Result == FormStyleAPI.HTCLIENT)
                     m.Result = (IntPtr)FormStyleAPI.HTCAPTION;
             }
-
         }
-
     }
 }

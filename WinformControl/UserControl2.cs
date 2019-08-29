@@ -21,14 +21,14 @@ namespace WinformControl
             comboBoxEx1.Items.Add("테스트8");
             comboBoxEx1.Items.Add("테스트9");
             comboBoxEx1.Items.Add("테스트10");
-            comboBoxEx1.SelectedItem = 0;
+            comboBoxEx1.SelectedIndex = 0;
 
             comboBoxExLarge1.Items.Clear();  
             comboBoxExLarge1.Items.Add("테스트1");
             comboBoxExLarge1.Items.Add("테스트2");
             comboBoxExLarge1.Items.Add("테스트3");
             comboBoxExLarge1.Items.Add("테스트4");
-            comboBoxExLarge1.SelectedItem = 0;
+            comboBoxExLarge1.SelectedIndex = 0;
         }
     }
 }
