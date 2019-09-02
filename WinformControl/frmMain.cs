@@ -317,7 +317,7 @@ namespace WinformControl
             }
             catch { }
         }
-
+              
         private void frmMain_Load(object sender, EventArgs e)
         {
             //현재 폼사이즈(최대,일반)

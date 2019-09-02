@@ -95,6 +95,7 @@
     <Compile Include="Common\clsWin32Api.cs" />
     <Compile Include="Common\CommonFunc.cs" />
     <Compile Include="Common\FormStyleAPI.cs" />
+    <Compile Include="Common\LifeSpanHandler.cs" />
     <Compile Include="Common\LPTEx.cs" />
     <Compile Include="Common\SerialPortEx.cs" />
     <Compile Include="Controls\addBar.cs">
