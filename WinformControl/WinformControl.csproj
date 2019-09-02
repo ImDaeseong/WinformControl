@@ -191,6 +191,12 @@
     <Compile Include="frmBaseborderless.Designer.cs">
       <DependentUpon>frmBaseborderless.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmBrowser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBrowser.Designer.cs">
+      <DependentUpon>frmBrowser.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmExit.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -292,6 +298,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Controls\UnderlineTextBox.resx">
       <DependentUpon>UnderlineTextBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBrowser.resx">
+      <DependentUpon>frmBrowser.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmLogout.resx">
       <DependentUpon>frmLogout.cs</DependentUpon>

@@ -16,7 +16,9 @@ namespace WinformControl.Common
             newBrowser = null;
 
             if (!String.IsNullOrWhiteSpace(targetUrl))
-            {   
+            {
+                //Program.MainForm.Call_frmBrower(targetUrl);
+
                 System.Diagnostics.Process.Start(targetUrl);
                 return true;//팝업 않뜸 
             }

@@ -307,6 +307,35 @@ namespace WinformControl
             this.Activate();
         }
 
+        //메인창에서 웹팝업창 호출시 사용 테스트중
+        frmBrowser frmBrower = null;
+        public void Call_frmBrower(string sUrl)
+        {
+            if (clsConst.bfrmBrowser == false)
+            {
+                frmBrower = new frmBrowser();
+                frmBrower.LoadUrl(sUrl);
+
+                if (sUrl.IndexOf("naver.com") != -1)
+                    frmBrower.SetWitdhHeight(600, 700);
+                else if (sUrl.IndexOf("naver.com/test") != -1)
+                    frmBrower.SetWitdhHeight(800, 800);
+                else
+                    frmBrower.SetWitdhHeight(500, 500);
+
+                frmBrower.Show();
+            }
+        }
+        public void Close_frmBrower()
+        {
+            if (frmBrower != null)
+            {
+                clsConst.bfrmBrowser = false;
+                frmBrower.Close();
+                frmBrower = null;
+            }
+        }
+
         private void CloseAllForm()
         {
             try
