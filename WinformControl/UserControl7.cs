@@ -42,9 +42,5 @@ namespace WinformControl
 
         }
 
-        private void roundButton1_Click(object sender, EventArgs e)
-        {
-
-        }
     }
 }

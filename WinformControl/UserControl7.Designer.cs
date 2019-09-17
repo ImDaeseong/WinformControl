@@ -88,7 +88,6 @@
             this.roundButton1.Text = "roundButton1";
             this.roundButton1.TextColor = System.Drawing.Color.Black;
             this.roundButton1.UseVisualStyleBackColor = true;
-            this.roundButton1.Click += new System.EventHandler(this.roundButton1_Click);
             // 
             // UserControl7
             // 
